@@ -45,7 +45,10 @@ var projects = Project.find()
 var updates = projects.update({ name: 'hello' })
 
 // or this
-Project.update({}, { name: 'hello' })
+var updates = Project.update({}, { name: 'hello' })
+
+// even this to update 'all'
+var updates = Project.update({ name: 'hello' })
 ```
 
 This requires the `projects` to be an instance of another class, `ModelList`, which behaves like an array with indexed lookup:
