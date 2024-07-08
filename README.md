@@ -1,2 +1,3 @@
-# model-concept
-Model concept based on mongowave
+# Model concept
+
+Model concept based on mongowave.
